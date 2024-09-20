@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LoginActivity">
+
+    <EditText
+        android:id="@+id/adharNumberEditTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adhar Number"
+        android:inputType="number"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/lightBlack"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your adhar number for further updates"
+        android:layout_below="@id/adharNumberEditTxt"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="@color/lightBlack"/>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
